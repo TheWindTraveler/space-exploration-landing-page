@@ -1,3 +1,52 @@
+/* CSS Variables */
+:root{
+    --Primary__color: #82a5ca;
+}
+
+/* Entire body styles */
 body{
-    background-color: red;
+    margin: 0;
+    color: var(--Primary__color);
+    font-family: "Space Mono", monospace;
+    text-align: center;
+}
+
+/* Logo Styles */
+.spacex__logo{
+    width: 100px;
+}
+
+/* Hero Section */
+.hero{
+    background: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXc3NGhpeHMxbGlrMG00cjcyeWs4cmRoNGdsMXFkbWdocWlsdW9sNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/iicDrNGWxHmDrIni6j/giphy.gif);
+    background-size: cover;
+    padding: 40px 0 70px 0;
+    
+}
+
+/* Heading Styles */
+#heading__styles{
+    text-shadow: 0 0 10px black;
+}
+
+#underline{
+    border-bottom: 5px solid white;
+}
+
+/* Button Styles */
+.btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    color: var(--Primary__color);
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: var(--Primary__color);
+    color: white;
 }
